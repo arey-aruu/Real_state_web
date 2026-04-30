@@ -3,49 +3,65 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Real Estate</title>
+<title>Kanzode Developers</title>
 
 <link rel="stylesheet" href="style.css">
 
-<!-- Icons -->
+<!-- Font Awesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
 </head>
+
 <body>
-<!-- NAVBAR -->
-<header class="navbar">
+
+<header class="navbar" id="navbar">
     <div class="container nav-flex">
-        <div class="logo">
-            <i class="fa-solid fa-map-location-dot"></i>
-            <span>PlotLand</span>
+
+        <!-- LOGO -->
+        <img src="/assets/img/KANZODE.png" class="logo-img" alt="Logo">
+
+        <!-- NAV LINKS -->
+        <ul class="nav-links" id="navLinks">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+
+            <!-- Mobile Button -->
+            <a href="#contact" class="btn mobile-btn">Book Plot</a>
+        </ul>
+
+        <!-- Desktop Button -->
+        <a href="#contact" class="btn desktop-btn">Book Plot</a>
+
+        <!-- HAMBURGER -->
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
-        <a href="#" class="btn">Book Plot</a>
     </div>
 </header>
 
-<!-- HERO -->
-<section class="hero">
+
+
+
+
+
+
+
+
+<!-- HERO SECTION -->
+<section id="hero" class="hero">
 
     <div class="slider">
 
         <!-- Slides -->
-        <div class="slide active" style="background-image:url('/assets/cara_1.avif')"></div>
-
-        <div class="slide" style="background-image:url('/assets/cara_4.avif')"></div>
-
-        <div class="slide" style="background-image:url('/assets/cara_3.jpg')"></div>
+        <div class="slide active" style="background-image:url('/assets/img/cara_1.avif')"></div>
+        <div class="slide" style="background-image:url('/assets/img/cara_2.jpg')"></div>
+        <div class="slide" style="background-image:url('/assets/img/cara_3.jpg')"></div>
 
         <!-- Overlay -->
         <div class="overlay"></div>
@@ -66,8 +82,15 @@
 </section>
 
 
+
+
+
+
+
+
+
 <!-- ABOUT SECTION -->
-<section class="about">
+<section id="about" class="about">
     <div class="container">
 
         <!-- Title -->
@@ -81,7 +104,7 @@
 
             <!-- Image -->
             <div class="about-img">
-                <img src="/assets/hero_1.jpg">
+                <img src="/assets/img/hero_1.jpg">
             </div>
 
             <!-- Text -->
@@ -89,7 +112,7 @@
                 <h3>We Develop Land & Sell Plots</h3>
 
                 <p>
-                    We specialize in acquiring large land parcels, converting them into well-planned layouts with proper roads, drainage systems, and infrastructure.
+                    We specialize in acquiring large land parcels, converting them into well-planned layouts with proper roads, electrification, drainage systems, and infrastructure.
                 </p>
 
                 <p>
@@ -106,27 +129,27 @@
 
             <div class="stat-box">
                 <i class="fa-solid fa-map"></i>
-                <h4>200+ Acres</h4>
+                <h4>50+ Acres</h4>
                 <p>Land Developed</p>
             </div>
 
             <div class="stat-box">
                 <i class="fa-solid fa-users"></i>
-                <h4>1000+</h4>
+                <h4>500+</h4>
                 <p>Happy Clients</p>
             </div>
 
             <div class="stat-box">
                 <i class="fa-solid fa-layer-group"></i>
-                <h4>50+</h4>
+                <h4>10+</h4>
                 <p>Layout Projects</p>
             </div>
 
-            <div class="stat-box">
+            <!-- <div class="stat-box">
                 <i class="fa-solid fa-indian-rupee-sign"></i>
                 <h4>₹400/sq.ft</h4>
                 <p>Starting Price</p>
-            </div>
+            </div> -->
 
         </div>
 
@@ -146,15 +169,8 @@
 
 
 
-
-
-
-
-
-
-
 <!-- PROJECTS SECTION -->
-<section class="projects">
+<section id="projects" class="projects">
     <div class="container">
 
         <!-- Heading -->
@@ -177,7 +193,7 @@
 
                 <div class="project-card">
                     <div class="img-box">
-                        <img src="/assets/op_1.jpg">
+                        <img src="/assets/img/Project_1.png">
                         <span class="badge">60%</span>
                     </div>
                     <h3>Green Valley Layout</h3>
@@ -189,7 +205,7 @@
                     </div>
                 </div>
 
-                <div class="project-card">
+                <!-- <div class="project-card">
                     <div class="img-box">
                         <img src="/assets/op_2.jpg">
                         <span class="badge">45%</span>
@@ -201,9 +217,9 @@
                         <span>₹400/sq.ft</span>
                         <span>Road + Water</span>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="project-card">
+                <!-- <div class="project-card">
                     <div class="img-box">
                         <img src="/assets/op_3.jpg">
                         <span class="badge">75%</span>
@@ -215,7 +231,7 @@
                         <span>₹380/sq.ft</span>
                         <span>Investment Zone</span>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
@@ -224,7 +240,7 @@
 
                 <div class="project-card">
                     <div class="img-box">
-                        <img src="/assets/cp_1.avif">
+                        <img src="/assets/img/cp_1.avif">
                         <span class="badge done">Completed</span>
                     </div>
                     <h3>Royal Farm Plots</h3>
@@ -238,7 +254,7 @@
 
                 <div class="project-card">
                     <div class="img-box">
-                        <img src="/assets/cp2.webp">
+                        <img src="/assets/img/op_2.jpg">
                         <span class="badge done">Completed</span>
                     </div>
                     <h3>Green City Phase 1</h3>
@@ -252,7 +268,7 @@
 
                 <div class="project-card">
                     <div class="img-box">
-                        <img src="/assets/cp_3.jpg">
+                        <img src="/assets/img/cp_3.jpg">
                         <span class="badge done">Completed</span>
                     </div>
                     <h3>City Expansion Plots</h3>
@@ -272,8 +288,16 @@
 </section>
 
 
+
+
+
+
+
+
+
+
 <!-- GALLERY -->
-<section class="gallery">
+<section id="gallery" class="gallery">
     <div class="container">
 
         <!-- Heading -->
@@ -286,19 +310,19 @@
         <div class="gallery-grid">
 
             <div class="item big">
-                <img src="/assets/g1.webp">
+                <img src="/assets/img/img2.jpeg">
             </div>
 
             <div class="item">
-                <img src="/assets/g2.webp">
+                <img src="/assets/img/img1.jpeg">
             </div>
 
             <div class="item">
-                <img src="/assets/g3.avif">
+                <img src="/assets/img/img3.jpeg">
             </div>
 
             <div class="item tall">
-                <img src="/assets/g4.avif">
+                <img src="/assets/img/img5.jpeg">
                 <span class="overlay-text">Plot Layout View</span>
             </div>
 
@@ -311,7 +335,7 @@
             </div>
 
             <div class="item wide">
-                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+                <img src="/assets/img/img5.jpeg">
             </div>
 
         </div>
@@ -320,8 +344,13 @@
 </section>
 
 
+
+
+
+
+
 <!-- TESTIMONIALS -->
-<section class="testimonials">
+<section id="testimonials" class="testimonials">
     <div class="container">
 
         <div class="section-header">
@@ -392,13 +421,9 @@
 
 
 
-
-
-
-
-
 <!-- CONTACT -->
-<section class="contact">
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
     <div class="container">
 
         <div class="section-header">
@@ -412,7 +437,7 @@
             <div class="contact-info">
                 <h3>Get In Touch</h3>
                 <p>
-                    Interested in buying a plot or investing in land? Our team will guide you with pricing, layout details, and site visits.
+                    Interested in buying a plot or investing in land? Our team will guide you.
                 </p>
 
                 <div class="info-item">
@@ -420,7 +445,6 @@
                     <div>
                         <h4>Phone</h4>
                         <p>+91 9876543210</p>
-                        <p>+91 9123456780</p>
                     </div>
                 </div>
 
@@ -429,7 +453,6 @@
                     <div>
                         <h4>Email</h4>
                         <p>info@plotland.com</p>
-                        <p>support@plotland.com</p>
                     </div>
                 </div>
 
@@ -438,27 +461,28 @@
                     <div>
                         <h4>Office</h4>
                         <p>Nagpur, Maharashtra</p>
-                        <p>India</p>
                     </div>
                 </div>
             </div>
 
             <!-- RIGHT FORM -->
             <div class="contact-form">
-                <form>
+                <form id="contactForm">
+
                     <label>Full Name</label>
-                    <input type="text" placeholder="Enter your name">
+                    <input type="text" id="name" placeholder="Enter your name" required>
 
                     <label>Email Address</label>
-                    <input type="email" placeholder="Enter your email">
+                    <input type="email" id="email" placeholder="Enter your email" required>
 
                     <label>Phone Number</label>
-                    <input type="text" placeholder="Enter your phone number">
+                    <input type="text" id="phone" placeholder="Enter your phone number" required>
 
                     <label>Requirement</label>
-                    <textarea placeholder="Tell us your plot size, location or budget..."></textarea>
+                    <textarea id="message" placeholder="Tell us your requirement..." required></textarea>
 
                     <button type="submit">Send Enquiry</button>
+
                 </form>
             </div>
 
@@ -475,13 +499,6 @@
 
 
 
-
-
-
-
-
-
-
 <!-- FOOTER -->
 <footer class="footer">
     <div class="container footer-container">
@@ -489,8 +506,8 @@
         <!-- LEFT -->
         <div class="footer-col">
             <div class="footer-logo">
-                <i class="fa-solid fa-map-location-dot"></i>
-                <span>PlotLand</span>
+                <!-- <img src="/assets/img/KANZODE.png" alt="Logo" class="footer-logo-img"> -->
+                <span>Kanzode Developers</span>
             </div>
 
             <p>
@@ -543,14 +560,15 @@
 
     <!-- BOTTOM -->
     <div class="footer-bottom">
-        <p>© 2026 PlotLand. All rights reserved.</p>
-
-        <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-        </div>
+        <p>© 2026 Kanzode Developers. All rights reserved.</p>
     </div>
 </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
 
 <script src="script.js"></script>
 </body>
